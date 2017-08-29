@@ -29,6 +29,6 @@ Com base no modelo gerado anteriormente, você deverá implementar as seguintes 
 
 1. Listar nome e marca de todas as impressoras existentes
 1. Listar o nome, cargo, e salário de cada funcionário
-1. Listar as cidades dos clientes onde houve atendimento
-1. Listar os detalhes de todos os atendimentos presentes
+1. Listar os detalhes de todos os atendimentos existentes
+1. Listar os atendimentos que foram feitos nas impressoras de marca 'HP' 
 1. Listar o nome dos clientes que foram atendidos até Julho de 2017
