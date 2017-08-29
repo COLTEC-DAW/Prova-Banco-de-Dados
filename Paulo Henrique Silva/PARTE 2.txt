@@ -1,0 +1,9 @@
+PARTE 2
+
+1 - SELECT "Nome","Marca" FROM Impressoras;
+
+2 - SELECT "Nome","Cargo","Salario" FROM Funcionarios;
+
+3 - SELECT * FROM Atendimentos;
+
+4 - SELECT * FROM Atendimentos, Impressoras WHERE Atendimentos.ImpressoraID = Impressora.ID AND Impressora.Marca LIKE '%HP%';
