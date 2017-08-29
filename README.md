@@ -27,7 +27,7 @@ Você deverá entregar:
 
 Com base no modelo gerado anteriormente, você deverá implementar as seguintes consultas em SQL.
 
-1. Listar nome, marca e tipo de todas as impressoras existentes
+1. Listar nome e marca de todas as impressoras existentes
 1. Listar o nome, cargo, e salário de cada funcionário
 1. Listar as cidades dos clientes onde houve atendimento
 1. Listar os detalhes de todos os atendimentos presentes
