@@ -72,5 +72,5 @@ INSERT INTO `atendimentos` (`data`, `valor`, `n_paginas`, `id_funcionarios`, `id
 	SELECT atendimentos.data, atendimentos.valor, atendimentos.n_paginas, funcionarios.nome, clientes.nome, impressoras.nome FROM atendimentos, funcionarios,clientes,impressoras
 	WHERE atendimentos.id_funcionarios = funcionarios.id_funcionarios AND clientes.id_cliente = atendimentos.id_cliente AND atendimentos.id_impressora = impressoras.id_impressora AND impressoras.marca LIKE "%hp%";
 #5) Listar o nome dos clientes que foram atendidos até Julho de 2017:
-	SELECT clientes.nome, atendimentos.data FROM clientes, atendimentos
+	SELECT DISTINCT clientes.nome FROM clientes, atendimentos
 	WHERE atendimentos.data < "2017-07-01 00:00:01" AND atendimentos.id_cliente = clientes.id_cliente;
