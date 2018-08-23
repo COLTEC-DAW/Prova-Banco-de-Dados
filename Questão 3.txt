@@ -1,0 +1,14 @@
+Propor uma melhoria: O DER original não está otimizado, (Estabelecimento, Motorista e Cliente compartilham o mesmo tipo de informação).
+Você deverá propor uma melhoria no DER original. Essa melhoria deverá ser descrita no formato de um novo diagrama.
+
+/*RESPOSTA*/
+ Esta é uma situação onde é necessário criar uma 
+ relação entre entidade e seu relacionamento, no 
+ momento em que ambas as três entidades(Cliente,
+ pedido e item) possuem o mesmo atributo(codigo).
+
+ Desta forma cria-se a Entidade Associativa que 
+ funcionara tanto como entidade quanto relação,
+ neste ponto ela recebera o atributo "codigo"
+ e remediará entre "Cliente" e "Estabelecimento"
+/*RESPOSTA*/
