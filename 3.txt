@@ -1,0 +1,2 @@
+Várias informações de mesmo tipo (nome, cpf/cnpj, endereço) estão presentes no diagrama. 
+Elas poderiam poderiam ser otimizadas se fosse feito uma generalização, onde entidades especializadas herdam as propriedades de uma entidade genérica.
