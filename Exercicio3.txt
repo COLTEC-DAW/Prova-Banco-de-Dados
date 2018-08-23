@@ -1,0 +1,1 @@
+A entidade "pedido" tem relação(N,1) com as entidades "cliente" e "motorista", logo ela pode virar um entidade associativa. Isso facilitaria, pois essa nova entidade conseguiria ter as informações de cliente, motorista e do item que foi pedido. 
