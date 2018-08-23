@@ -2,7 +2,6 @@ Para otimizar o sistema atual podemos implementar uma "herança", ou seja as tab
 motorista, cliente e estabelecimento terão uma foreign key para uma outra tabela que
 possuirá os tipos de dados comuns entre essas (nome e endereço).
 
-
 Ex:
 
 
@@ -14,6 +13,7 @@ CREATE TABLE IF NOT EXIST data(
 
 CREATE TABLE IF NOT EXIST cliente(
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  cpf INT NOT NULL,
   data_id INT NOT NULL,
   FOREIGN KEY (data_id) REFERENCES data(id)
 );
