@@ -1,0 +1,2 @@
+Ideia: Motorista, Cliente e Estabelecimento tem os mesmos atributos
+Solução: A ideia seria criar um modelo de tabela que pudesse armazenar tanto estabelecimento, como cliente e motorista (usando um identificador próprio pra permitir a inserçãodos dadso diferenciais (cnpj e cpf, no caso)). Além de um atributo controle, para permitir a inserção do telefone do cliente (apesar de que tanto o motorista como o estabelecimento também deveriam ter telefones obrigatórios).
