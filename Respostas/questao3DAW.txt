@@ -1,0 +1,6 @@
+
+
+	Questão 3-
+
+	Uma possível melhoria seria a criação de uma tabela chmada de 'pessoa', a qual possuiria como chave estrangeira deo cpf ou cnpj cada tipo de usuário e a partir 
+	disso as demais pessoas seriam definidas dentro dessa tabela 'pessoa'. A tabela conteria nome, endereço, telefone, cpf e afins. 
