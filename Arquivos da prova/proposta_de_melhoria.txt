@@ -1,0 +1,5 @@
+03 - Proposta de melhoria para o DER
+
+Uma das melhorias que podemos implementar é no relacionamento entre o 'Item' e o 'Pedido', como é um relacionamento N:N, podemos criar uma entidade relacionamento, que no caso se chamaria 'Incluso'.
+
+Outra melhoria é em relação às entidades Estabelecimento, Cliente e Motorista. Como elas possuem basicamente as mesmas informações, para evitar essa repetição podemos fazer uma generalização entre elas, criando uma tabela que teria as informações em comum (Nome e Endereço) e uma Chave estrangeira que iria referenciar as informações de cada entidade (Estabelecimento, Cliente e Motorista).
