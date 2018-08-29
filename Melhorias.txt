@@ -1,0 +1,1 @@
+Uma melhoria para otimizar o DER seria criar uma table "Pessoa Física/Jurídica" com os  atributos obrigatórios "Nome" e "Endereço" e as chaves primárias "CPF" e "CNPJ", que podem ser nulas. As tables Estabelecimento, Cliente e Motorista teriam uma relação obrigatória de 1 para 1 com essa nova tabela. Dessa forma, evitaria-se repetição do mesmo tipo de informação nessas tabelas.
