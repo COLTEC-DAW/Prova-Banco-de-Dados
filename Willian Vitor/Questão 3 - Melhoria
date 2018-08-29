@@ -1,0 +1,1 @@
+3- A melhoria que pode ser implementada seria a utilização da "Generalização/Especialização" para que as entidades "Estabelecimento", "Motorista" e "Cliente" herdem os atributos "NOME" e "ENDEREÇO" de uma entidade genérica. Essa nova entidade genérica poderia se chamar não possuiria um atributo identidicador.
