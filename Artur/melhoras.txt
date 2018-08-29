@@ -1,0 +1,2 @@
+O motorista pode adquirir uma localização para que o usuário acompanhe
+o destino e saiba se está chegando ou não. 
