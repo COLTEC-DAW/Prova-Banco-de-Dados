@@ -1,0 +1,3 @@
+Devido ao não compartilhamento de dados iguas,que são pedidos separadamente,causa mais buscas e inserções desnecessárias no Banco de dados.
+Portanto,para a melhorar a busca  ,e possuir maior eficiência(velocidade) na organização dos dados,deve-se criar um relacionamente entre essas 
+tabelas para melhor acesso a eles, mudando certas cardinalidades obitidas inicialmente e melhorando o sistema. 
