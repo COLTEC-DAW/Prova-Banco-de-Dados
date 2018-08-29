@@ -1,0 +1,52 @@
+CREAT DATABASE MyFood;
+
+SHOW DATABASE;
+
+USE MyFood;
+
+CREAT TABLE estabelecimento(
+nome VARCHAR(40) NOT NULL,
+cnpj INT PRIMARY KEY NOT NULL,
+endereco VARCHAR(60) NOT NULL
+);
+
+CREAT TABLE item(
+codigo INT PRIMARY KEY NOT NULL,
+nome VARCHAR(60) NOT NULL,
+valor decimal NOT NULL
+);
+
+CREAT TABLE pedido(
+codigo INT PRIMARY KEY NOT NULL,
+hora time NOT NULL
+);
+
+CREAT TABLE cliente(
+nome VARCHAR(40),
+endereco VARCHAR(60),
+cpf INT PRIMARY KEY,
+telefone INT
+);
+
+CREAT TABLE motorista(
+nome VARCHAR(40) NOT NULL,
+cpf INT PRIMARY KEY NOT NULL,
+edereco VARCHAR(60) NOT NULL
+);
+
+SHOW TABLES;
+
+QUIT;
+
+
+
+
+
+
+
+
+
+
+
+
+
